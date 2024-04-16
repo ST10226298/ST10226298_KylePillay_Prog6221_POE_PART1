@@ -154,7 +154,7 @@ namespace AppRecipe
 
                         recipe.Clear();
 
-                        Console.WriteLine("\nRecipe Cleared. Enter new recipe details:");
+                        Console.WriteLine("\nRecipe Cleared. Enter new recipe details please:");
 
 
 
