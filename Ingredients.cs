@@ -18,6 +18,8 @@ namespace AppRecipe
 
     {
 
+        // making getters and setters
+
         public string Name { get; set; }
 
         public double Quantity { get; set; }
