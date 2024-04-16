@@ -84,8 +84,6 @@ namespace AppRecipe
 
             // Reset quantities to original values
 
-            // (assuming original quantities are stored somewhere, not shown in this example)
-
         }
 
 
