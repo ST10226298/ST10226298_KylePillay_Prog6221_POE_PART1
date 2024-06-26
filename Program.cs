@@ -24,7 +24,72 @@ namespace AppRecipe
 
     {
 
-        static void Main(string[] args)
+        static voidpublic string Name { get; set; }
+        public double Quantity { get; set; }
+        public string Unit { get; set; }
+        public int Calories { get; set; }
+        public string FoodGroup { get; set; }
+
+        public Ingredient(string name, double quantity, string unit, int calories, string foodGroup)
+        {
+            Name = name;
+            Quantity = quantity;
+            Unit = unit;
+            Calories = calories;
+            FoodGroup = foodGroup;
+        }
+
+        public Ingredient Scale(double factor)
+        {
+            return new Ingredient(Name, Quantity * factor, Unit, Calories, FoodGroup);
+        }
+    }
+    public string Name { get; set; }
+    public double Quantity { get; set; }
+    public string Unit { get; set; }
+    public int Calories { get; set; }
+    public string FoodGroup { get; set; }
+
+    public Ingredient(string name, double quantity, string unit, int calories, string foodGroup)
+    {
+        Name = name;
+        Quantity = quantity;
+        Unit = unit;
+        Calories = calories;
+        FoodGroup = foodGroup;
+    }
+
+    public Ingredient Scale(double factor)
+    {
+        return new Ingredient(Name, Quantity * factor, Unit, Calories, FoodGroup);
+    }
+}
+public string Name { get; set; }
+public double Quantity { get; set; }
+public string Unit { get; set; }
+public int Calories { get; set; }
+public string FoodGroup { get; set; }
+
+public Ingredient(string name, double quantity, string unit, int calories, string foodGroup)
+{
+    Name = name;
+    Quantity = quantity;
+    Unit = unit;
+    Calories = calories;
+    FoodGroup = foodGroup;
+}
+
+public Ingredient Scale(double factor)
+{
+    return new Ingredient(Name, Quantity * factor, Unit, Calories, FoodGroup);
+}
+    }
+
+
+
+Main(s
+    
+tring[] args)
 
         {
 
